@@ -1,0 +1,64 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eabe7c;
+    
+}
+
+main {
+    border: 1px solid black;
+    padding: 15px;
+    background-color: #ece4b7;
+    color: #311e10;
+    border-radius: 4px;
+}
+
+.info {
+    margin: 15px;
+}
+
+p {
+    margin: 8px;
+    
+}
+
+input {
+    border-radius: 8px;
+    height: 25px;
+    padding-left: 15px;
+}
+
+.error{
+    color:#DB5A5A;
+}
+
+.error input{
+    border: 2px solid #DB5A5A;
+}
+
+.sucess input{
+    border: 0;
+}
+
+.sucess{
+    color: #311e10;
+}
+
+.btn {
+    font-weight: bold;
+    margin-left: 9%;
+    width: 40%;
+    border-radius: 8px;
+    background-color: #d9dd92;
+    color: #311e10;
+}
